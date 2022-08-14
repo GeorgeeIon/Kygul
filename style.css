@@ -1,0 +1,58 @@
+
+body {
+    background-color: pink;
+}
+ul {   
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+.navbar {
+    overflow: hidden;
+    width: 100%;
+  }
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: brown;
+    padding: 20px;
+    margin: 50px;
+}
+
+#logoimg{
+    width: auto;
+    height: 125px;
+    align-items: center;
+    display: flex;
+}
+
+
+#mainimage {
+    height: 500px;
+    width: auto;
+    margin: 30px;
+}
+
+.maincontainer{
+    background-color: aquamarine;
+}
+.main1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main2 {
+    width: max-content;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
